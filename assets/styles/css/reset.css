@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --c-white: #fff;
+  --c-black: #000;
+  --c-red: red;
+}
+
+body {
+  background-color: var(--c-black);
+  color: var(--c-white);
+  min-height: 100vh;
+}
